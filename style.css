@@ -12,7 +12,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
-    background-color: #0b0f19;
+    background-color: #1e2330;
 }
 
 /* make the list items */
@@ -35,4 +35,40 @@
     padding: 10px 24px;
     border-radius: 6px;
     font-weight: bold;
+}
+/* hero section*/
+
+.hero-section {
+    /*background images */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh; 
+    
+    /*Flexbox context */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* content box inside the hero section */
+.hero-content {
+    text-align: center; 
+    color: white;
+    max-width: 800px; 
+    padding: 0 20px; 
+}
+
+/*  main heading */
+.hero-content h1 {
+    font-size: 56px; 
+    margin-bottom: 20px;
+}
+
+/* the paragraph */
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    line-height: 1.6;
+    color: #e5e7eb; 
 }
