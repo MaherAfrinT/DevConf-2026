@@ -13,7 +13,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
-    background-color: #35536e;
+    background-color: #0e3d84;
 }
 
 /* make the list items */
@@ -97,7 +97,7 @@ transition: color 0.3s ease;
 .speakers-section {
 
  padding: 100px 50px;
-     background-color: #1b3a89;
+     background-color: #41739f;
     text-align: center; 
 }
 
@@ -186,7 +186,7 @@ padding: 6px 14px;
 .pricing-section {
       padding: 100px 50px;
 
- background-color: #263c79;
+ background-color: #41739f;
 
       text-align: center;
 }
@@ -341,7 +341,7 @@ width: 100%;
 /* FAQ Section */
 .faq-section {
     padding: 100px 50px;
-    background-color: #050810;
+    background-color: #41739f;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -434,7 +434,7 @@ width: 100%;
 /* Sponsors Section */
 .sponsors-section {
     padding: 80px 50px;
-    background-color: #0b0f19;
+    background-color: #41739f;
     text-align: center;
     overflow: hidden; 
 }
@@ -497,7 +497,7 @@ width: 100%;
 /* Contact Section */
 .contact-section {
     padding: 100px 50px;
-    background-color: #050810;
+    background-color: #41739f;
     display: flex;
     justify-content: center;
 }
