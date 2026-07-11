@@ -14,3 +14,6 @@ add sponsers with logo from any well known company or organizaton and add it smo
 
 #4.
 now add a contact us section like this image but make it relevant in en , stylish elegant ,smooth , and eye catching and resizable.
+
+#5.
+ok, from thr idea now you generate code step by step and also explain why you write this code and what can be it use for ,and what eles can be added or removed from it to maki it usable on more different types of website. i give you my previous codes [html and css] try to create this way so it will be easy to understand your codes for me ...do not use hard codes because i am beginner .
