@@ -13,7 +13,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
-    background-color: #36546f;
+    background-color: #35536e;
 }
 
 /* make the list items */
@@ -85,7 +85,7 @@
 .speakers-section {
 
  padding: 100px 50px;
-     background-color: #1c3062;
+     background-color: #1b3a89;
     text-align: center; 
 }
 
@@ -109,7 +109,7 @@ font-size: 36px;
 
 .speaker-card {
 
- background-color: #111827;
+ background-color: #203052;
     padding: 40px 20px;
      border-radius: 12px;
     
@@ -167,4 +167,158 @@ padding: 6px 14px;
 
  font-size: 15px;
  color: #9ca3af; 
+}
+
+/* PRICING SECTION  */
+
+.pricing-section {
+      padding: 100px 50px;
+
+ background-color: #263c79;
+
+      text-align: center;
+}
+
+.section-subtitle {
+
+color: #9ca3af;
+
+    font-size: 18px;
+     margin-top: -35px; 
+    margin-bottom: 50px;
+}
+
+
+
+.pricing-grid {
+    display: grid;
+grid-template-columns: repeat(3, 1fr); 
+   
+gap: 30px;
+    
+  max-width: 1100px;
+    margin: 0 auto;
+     align-items: center; 
+}
+
+
+
+.pricing-card {
+
+ background-color: #111827;
+
+   
+ padding: 40px 30px;
+ border-radius: 12px;
+      border: 1px solid #1f2937;
+
+    text-align: left; 
+transition: transform 0.3s ease;
+}
+
+.pricing-card:hover {
+    transform: translateY(-10px);
+}
+
+.pricing-card h3 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.price {
+    font-size: 40px;
+  
+  color: #3b82f6; 
+    margin-bottom: 25px;
+}
+
+/* Features List */
+.features-list {
+    list-style: none; 
+    margin-bottom: 35px;
+}
+
+.features-list li {
+
+   
+ color: #d1d5db;
+
+ font-size: 16px;
+    margin-bottom: 12px;
+   
+    padding-left: 25px;
+ position: relative;
+
+}
+
+
+.features-list li::before {
+
+    content: " ✓";
+ color: #10b981; 
+    position: absolute;
+     left: 0;
+    font-weight: bold;
+}
+
+/* Highligting  Pro Card  */
+.pro-card {
+     background-color: #1e3a8a; 
+
+  border: 2px solid #3b82f6; 
+
+    transform: scale(1.05); 
+    position: relative;
+}
+
+.pro-card:hover {
+    transform: scale(1.05) translateY(-10px);
+}
+
+.pro-card .price {
+    color: #ffffff; 
+}
+
+.popular-badge {
+
+ background-color: #3b82f6;
+
+     color: white;
+font-size: 12px;
+font-weight: bold;
+    padding: 5px 12px;
+    border-radius: 20px;
+    position: absolute;
+top: -12px;
+    right: 30px;
+}
+
+/* Second Outline Button */
+.btn-outline {
+    display: inline-block;
+
+    text-decoration: none;
+    color: #ffffff;
+
+    border: 2px solid #3b82f6;
+ padding: 10px 24px;
+
+    border-radius: 6px;
+font-weight: bold;
+    transition: all 0.3s ease;
+     width: 100%; 
+    text-align: center;
+}
+
+.btn-outline:hover {
+    background-color: #3b82f6;
+}
+
+.pricing-card .btn-primary {
+
+
+    display: inline-block;
+width: 100%; 
+    text-align: center;
 }
