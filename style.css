@@ -1,4 +1,4 @@
-/* 1. Basic reset */
+/* Basic reset */
 * {
     margin: 0;
     padding: 0;
@@ -6,29 +6,33 @@
     font-family: Arial, sans-serif;
 }
 
-/* 2. Navbar */
+/* Navbar */
 .navbar {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
-    background-color: #1e2330;
+    background-color: #36546f;
 }
 
 /* make the list items */
 .nav-links {
+
     display: flex;
     gap: 30px;
     list-style: none;
 }
 /* links inside the menu */
 .nav-links a {
+
     text-decoration: none;
     color: white;
     font-size: 16px;
 }
 /* the register button */
 .btn-primary {
+
     text-decoration: none;
     color: white;
     background-color: #3b82f6; 
@@ -36,16 +40,17 @@
     border-radius: 6px;
     font-weight: bold;
 }
-/* hero section*/
+/* hero section */
 
 .hero-section {
-    /*background images */
+
+    /* background image */
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./images/banner.jpg');
     background-size: cover;
     background-position: center;
     height: 80vh; 
     
-    /*Flexbox context */
+    /* Flexbox context */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,6 +58,7 @@
 
 /* content box inside the hero section */
 .hero-content {
+
     text-align: center; 
     color: white;
     max-width: 800px; 
@@ -61,14 +67,104 @@
 
 /*  main heading */
 .hero-content h1 {
+
     font-size: 56px; 
     margin-bottom: 20px;
 }
 
 /* the paragraph */
 .hero-content p {
+
     font-size: 18px;
     margin-bottom: 40px;
     line-height: 1.6;
-    color: #e5e7eb; 
+    color: white; 
+}
+/* speaker section */
+
+.speakers-section {
+
+ padding: 100px 50px;
+     background-color: #1c3062;
+    text-align: center; 
+}
+
+.section-title {
+
+font-size: 36px;
+ margin-bottom: 50px;
+ color: white ; 
+}
+
+/* 2x2 Grid Layout for Speakers */
+.speakers-grid {
+
+ display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px; 
+     max-width: 900px;
+ margin: 0 auto; 
+}
+
+
+.speaker-card {
+
+ background-color: #111827;
+    padding: 40px 20px;
+     border-radius: 12px;
+    
+    border: 1px solid #1f2937;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+   text-align: center;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.speaker-card:hover {
+    transform: translateY(-8px);
+     box-shadow: 0 12px 25px rgba(0, 0, 0, 0.6);
+}
+
+/* shape = rectengular  */
+.speaker-photo {
+
+ width: 100%; 
+    height: 220px; 
+ border-radius: 8px; 
+    object-fit: cover;
+   
+    object-position: top; 
+ margin-bottom: 20px;
+     border: none; 
+}
+
+/* Badges */
+.badge {
+ display: inline-block;
+padding: 6px 14px;
+    border-radius: 20px;
+     font-size: 13px;
+  font-weight: bold;
+
+    margin-bottom: 15px;
+}
+
+
+.badge-ai { background-color: rgba(59, 130, 246, 0.15); color: #60a5fa; }
+.badge-cloud { background-color: rgba(22, 163, 74, 0.15); color: #4ade80; }
+.badge-security { background-color: rgba(239, 68, 68, 0.15); color: #f87171; }
+.badge-frontend { background-color: rgba(217, 119, 6, 0.15); color: #fbbf24; }
+
+/* Texts  */
+.speaker-card h3 {
+
+ font-size: 22px;
+    color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.speaker-card p {
+
+ font-size: 15px;
+ color: #9ca3af; 
 }
